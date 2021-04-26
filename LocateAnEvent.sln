@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocateAnEvent", "LocateAnEvent\LocateAnEvent.csproj", "{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA58D8E7-EAEA-4BAF-B2EF-3BD1CE977F63}
+	EndGlobalSection
+EndGlobal

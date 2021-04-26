@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DA8955"
+    android:gravity="center">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:text="FREE"
+                android:id="@+id/btnFree"
+                android:background="@drawable/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fitsSystemWindows="true" />
+            <Button
+                android:text="PAID"
+                android:background="@drawable/button"
+                android:id="@+id/btnPaid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEventSearch"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:textColorHint="#0D0103"
+            android:textColor="#0D0103"
+            android:textStyle="normal"
+            android:typeface="normal"
+            android:hint="Event Name" />
+
+        <ListView
+            android:id="@+id/lstLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dp" />
+
+        <Button
+            android:text="Search"
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSearch" />
+    </LinearLayout>
+</LinearLayout>

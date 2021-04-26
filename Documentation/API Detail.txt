@@ -1,0 +1,4 @@
+
+API Name :- http://api.eventfinda.co.nz/v2/events.xml
+USERNAME:-findyourevents
+PASSWORD:-vqb7nk57w2km
